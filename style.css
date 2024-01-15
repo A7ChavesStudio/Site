@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+}
+
+body{
+    background: linear-gradient(#9c74ff, #be51e4);
+    scroll-behavior: smooth;
+}
+
+#Menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    height: 100%;
+}
+
+#Logo{
+    width: 100px;
+    border-radius: 100%;
+    border: solid 2px black;
+}
+
+a{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    margin: 5px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+#nomeStudio{
+    margin-top: 25px;
+}
+
+#Logo-Empresa{
+    width: 300px;   
+    border-radius: 100%;
+    border: solid 2px aliceblue;
+}
+
+#Main{
+    height: 100%;
+}
+
+#slogan{
+    border-bottom: solid 2px aliceblue;
+}
+
+#Apresentacao-Empresa{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 48px;
+}
+
+#aboutus{
+    display: flex;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#About-Text{
+    margin: 25px;
+    width: 800px;
+}
+h2{
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+#Footer{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+h4{
+    font-weight: 100;
+    padding: 5px;
+}
