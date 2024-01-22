@@ -13,14 +13,8 @@ body{
 #Menu{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 25px;
+    justify-content: center;
     height: 100%;
-}
-
-#Logo{
-    width: 100px;
-    border-radius: 100%;
 }
 
 a{
@@ -40,7 +34,7 @@ a{
 }
 
 #Logo-Empresa{
-    width: 300px;   
+    width: 200px;   
     border-radius: 100%;
     border: solid 2px aliceblue;
 }
@@ -51,11 +45,13 @@ a{
 
 #slogan{
     border-bottom: solid 2px aliceblue;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #Apresentacao-Empresa{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20%;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
